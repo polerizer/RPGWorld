@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context=".MapEditor" >
+
+    <LinearLayout
+        android:id="@+id/editGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gray"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/green"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:layout_weight=".50"
+            android:background="@drawable/blue"
+            android:gravity="left" >
+
+            <ImageButton
+                android:id="@+id/btnHero"
+                android:layout_width="44dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.4"
+                android:paddingBottom="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hero" />
+
+            <ImageButton
+                android:id="@+id/btnMonster"
+                android:layout_width="56dp"
+                android:layout_height="fill_parent"
+                android:paddingBottom="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/monster" />
+
+            <ImageButton
+                android:id="@+id/btnAndroid"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:paddingBottom="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="0dp"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageButton
+                android:id="@+id/btnRock"
+                android:layout_width="44dp"
+                android:layout_height="fill_parent"
+                android:paddingBottom="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/rock" />
+
+            <ImageButton
+                android:id="@+id/btnCactus"
+                android:layout_width="44dp"
+                android:layout_height="fill_parent"
+                android:paddingBottom="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cactus" />
+
+            <ImageButton
+                android:id="@+id/btnTree"
+                android:layout_width="44dp"
+                android:layout_height="fill_parent"
+                android:paddingBottom="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tree" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:layout_weight=".50"
+            android:background="@drawable/yellow" >
+
+            <ImageButton
+                android:id="@+id/btnGrass"
+                android:layout_width="44dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.50"
+                android:paddingBottom="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/grass" />
+
+            <ImageButton
+                android:id="@+id/btnSand"
+                android:layout_width="44dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.50"
+                android:paddingBottom="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sand" />
+
+            <ToggleButton
+                android:id="@+id/btnSim"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight=".3"
+                android:text="ToggleButton"
+                android:textOff="STOPPED"
+                android:textOn="RUNNING" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
